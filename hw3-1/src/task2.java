@@ -1,12 +1,14 @@
 public class task2 {
     public static void main(String[] args) {
-        int n = 750;
-        int x = n / 100;
-        int y = n % 10;
-        int z = n / 10;
-        int m = z % 10;
-        int s = x + y + m;
-        System.out.println(s);
+        int n = 44666;
+        int count;
+        int sum = 0;
+        while (n > 0) {
+            count = n % 10;
+            sum += count;
+            n /= 10;
+        }
+        System.out.println(sum);
     }
 }
 
