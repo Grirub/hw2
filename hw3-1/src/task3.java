@@ -4,6 +4,7 @@ public class task3 {
         float y = Math.round (n);
         System.out.println(Math.round (n));
         System.out.println(Math.floor  (n));
+
         System.out.println(Math.ceil (n));
     }
 }
