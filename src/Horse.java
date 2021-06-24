@@ -1,22 +1,23 @@
-public class Horse extends Animal{
+public class Horse extends Animal {
     int dlingriva;
+
     public Horse(String food, String location, int dlingriva) {
-        super(food,location);
-        this.dlingriva= dlingriva;
+        super(food, location);
+        this.dlingriva = dlingriva;
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("Иго-го-го");;
+        System.out.println("Иго-го-го");
+        ;
     }
 
     @Override
     public String toString() {
-        return "Horse{" +
-                "food='" + food + '\'' +
-                ", location='" + location + '\'' +
-                ", dlingriva=" + dlingriva +
-                '}';
+        return "Лошадь " +
+                "Еда " + food +
+                "Место жительства " + location +
+                "Длина гривы " + dlingriva ;
     }
 
     @Override

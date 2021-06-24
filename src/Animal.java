@@ -7,10 +7,12 @@ public class Animal {
         this.location = location;
 
     }
+
     public void makeNoise() {
         System.out.println(this + "животное издаёт звук");
 
     }
+
     public void eat() {
         System.out.println("Такое-то животное ест ");
     }

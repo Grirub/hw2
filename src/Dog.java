@@ -1,9 +1,9 @@
-public class Dog extends Animal{
+public class Dog extends Animal {
     int dlinxvost;
 
     public Dog(String food, String location, int dlinxvost) {
-        super(food,location);
-        this.dlinxvost= dlinxvost;
+        super(food, location);
+        this.dlinxvost = dlinxvost;
     }
 
     @Override
@@ -19,10 +19,10 @@ public class Dog extends Animal{
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "food='" + food + '\'' +
-                ", location='" + location + '\'' +
-                ", dlinxvost=" + dlinxvost +
+        return "Собака " +
+                "Еда " + food  +
+                "Место жительства " + location  +
+                " Длина хвоста" + dlinxvost +
                 '}';
     }
 }

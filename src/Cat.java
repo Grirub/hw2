@@ -1,16 +1,16 @@
-public class Cat extends Animal{
+public class Cat extends Animal {
     int dlinusov;
 
     public Cat(String food, String location, int dlinusov) {
         super(food, location);
-        this.dlinusov= dlinusov;
+        this.dlinusov = dlinusov;
     }
 
     @Override
     public void makeNoise() {
-       System.out.println("Мяу");
+        System.out.println("Мяу");
 
-}
+    }
 
     @Override
     public void eat() {
@@ -19,10 +19,9 @@ public class Cat extends Animal{
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "food='" + food + '\'' +
-                ", location='" + location + '\'' +
-                ", dlinusov=" + dlinusov +
-                '}';
+        return "Кот " +
+                "Еда " + food +
+                "Место жительства " + location  +
+                "Длина усов " + dlinusov ;
     }
 }
