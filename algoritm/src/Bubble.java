@@ -1,8 +1,8 @@
 public class Bubble {
     public static void main(String[] args) {
-        int [] array = new int[] {4,8,3,2,8,12,4,7};
+        int[] array = new int[]{4, 8, 3, 2, 8, 12, 4, 7};
         sort(array);
-        for (int i :array) {
+        for (int i : array) {
             System.out.println(i);
         }
     }
