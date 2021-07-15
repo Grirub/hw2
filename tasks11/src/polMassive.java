@@ -4,13 +4,16 @@ public class polMassive {
             int array[] = new int[10];
             generate_random(array, -50, 50);
             print(array);
-            int sum = sum_positive(array);
+            int sum = sumPositive(array);
             System.out.print("\nsum positive: " + sum);
         }
-        public static int sum_positive(int array[]) {
+        public static int sumPositive(int array[]) {
             int sum = 0;
+            boolean flag = false;
             for (int i = 0; i < array.length; i++) {
-                if (array[i] > 0)
+                if (array[i] ==0)
+                    flag = true;
+                if (array[i] > 0 && flag)
                     sum += array[i];
             }
             return sum;
